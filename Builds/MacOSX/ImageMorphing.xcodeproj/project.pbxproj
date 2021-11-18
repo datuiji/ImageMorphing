@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11BE4A5DE8CF2E0755EC5577 /* include_juce_graphics.mm */ = {isa = PBXBuildFile; fileRef = BFC70C04F313F9B344BAB40A; };
+		1271A0F6E3E8BB8702E70EEF /* Carbon.framework */ = {isa = PBXBuildFile; fileRef = EA1011F94A488348E9F7E5D1; };
+		2D3F3C47E3AF90384247C954 /* include_juce_gui_basics.mm */ = {isa = PBXBuildFile; fileRef = A38F52EC39FF0695AD38D73A; };
+		440B9B7907F43369B4D3D6C2 /* WarpingImageComponent.cpp */ = {isa = PBXBuildFile; fileRef = D26EFB45DD52AABA64B2CC66; };
+		656FA8C83355F817039AA60E /* include_juce_data_structures.mm */ = {isa = PBXBuildFile; fileRef = B6FCDF9F85A19F28A7D0423D; };
+		6CCADCF57142D0E685DB1D58 /* include_juce_core.mm */ = {isa = PBXBuildFile; fileRef = F86FDD30D95C7A87F3C1B303; };
+		6DB519F3FDB37AD549D2180B /* PaintImageComponent.cpp */ = {isa = PBXBuildFile; fileRef = 9869702D49F47BED1CEF948F; };
+		760C35AF6D12AB2B5047CCC0 /* MorphingAnimationComponent.cpp */ = {isa = PBXBuildFile; fileRef = EFB9822C864777B2B95B1088; };
+		7E5934DCEBB4D9DF76DCA7CE /* MainComponent.cpp */ = {isa = PBXBuildFile; fileRef = 49C5ABE02CEBB9DA18A4A227; };
+		8072444CB217854D0D0A4B72 /* IOKit.framework */ = {isa = PBXBuildFile; fileRef = 8F60F5DFA49D3FD449825B36; };
+		8AEF9F094F3D2EBE81EF9FA0 /* include_juce_gui_extra.mm */ = {isa = PBXBuildFile; fileRef = 35C255345BE0938DE3815668; };
+		8DC471CCBBE590FBA5096F10 /* WebKit.framework */ = {isa = PBXBuildFile; fileRef = C14D9BA9BA65C335A1036216; };
+		97C97140269ECDF55506553D /* BlendingImageComponent.cpp */ = {isa = PBXBuildFile; fileRef = 79FB5226408B1BD211965A16; };
+		A087EB37313817C5C9DB49D1 /* Cocoa.framework */ = {isa = PBXBuildFile; fileRef = EF5B0C126EA0B0A171A7A1A8; };
+		A737A0AC42A18953B3459710 /* RecentFilesMenuTemplate.nib */ = {isa = PBXBuildFile; fileRef = 0DF62F148A5359AF54B98238; };
+		ABB345FC252F67E1D3DABA50 /* Main.cpp */ = {isa = PBXBuildFile; fileRef = 778D38D1B064797B2A6A7079; };
+		AE78CB55440333BF197A0B1F /* SliderWithLabel.cpp */ = {isa = PBXBuildFile; fileRef = AFC2FED12A63DC697F5B475B; };
+		B3DB4DE35F720B869D831FB5 /* Foundation.framework */ = {isa = PBXBuildFile; fileRef = 4527EA453C5932E848E792C4; };
+		B98EC03CBC7D4F42F5C9DEE3 /* include_juce_events.mm */ = {isa = PBXBuildFile; fileRef = 4327BF37CEFE30C9B65FEA5E; };
+		C6A88DA48A80AC8A8D315585 /* App */ = {isa = PBXBuildFile; fileRef = 1C669E046595E5C8F1B25117; };
+		D01BBAF87601C3E2F8962043 /* QuartzCore.framework */ = {isa = PBXBuildFile; fileRef = E2B75E988959545C26C8F4B1; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DF62F148A5359AF54B98238 /* RecentFilesMenuTemplate.nib */ /* RecentFilesMenuTemplate.nib */ = {isa = PBXFileReference; lastKnownFileType = file.nib; name = RecentFilesMenuTemplate.nib; path = RecentFilesMenuTemplate.nib; sourceTree = SOURCE_ROOT; };
+		175649743EA2F517EBE6F022 /* juce_graphics */ /* juce_graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_graphics; path = /Users/tuijida/Desktop/OpenGL_Course/ImageMorphing/JUCE/modules/juce_graphics; sourceTree = "<absolute>"; };
+		1C669E046595E5C8F1B25117 /* App */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageMorphing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C255345BE0938DE3815668 /* include_juce_gui_extra.mm */ /* include_juce_gui_extra.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_extra.mm; path = ../../JuceLibraryCode/include_juce_gui_extra.mm; sourceTree = SOURCE_ROOT; };
+		392E650ADAD1B185DDD89F22 /* juce_data_structures */ /* juce_data_structures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_data_structures; path = /Users/tuijida/Desktop/OpenGL_Course/ImageMorphing/JUCE/modules/juce_data_structures; sourceTree = "<absolute>"; };
+		3C3F87B202862320E5E95F21 /* juce_events */ /* juce_events */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_events; path = /Users/tuijida/Desktop/OpenGL_Course/ImageMorphing/JUCE/modules/juce_events; sourceTree = "<absolute>"; };
+		4327BF37CEFE30C9B65FEA5E /* include_juce_events.mm */ /* include_juce_events.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_events.mm; path = ../../JuceLibraryCode/include_juce_events.mm; sourceTree = SOURCE_ROOT; };
+		4527EA453C5932E848E792C4 /* Foundation.framework */ /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49C5ABE02CEBB9DA18A4A227 /* MainComponent.cpp */ /* MainComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MainComponent.cpp; path = ../../Source/MainComponent.cpp; sourceTree = SOURCE_ROOT; };
+		6A5CE980E71F116CB19134C7 /* juce_gui_basics */ /* juce_gui_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_basics; path = /Users/tuijida/Desktop/OpenGL_Course/ImageMorphing/JUCE/modules/juce_gui_basics; sourceTree = "<absolute>"; };
+		778D38D1B064797B2A6A7079 /* Main.cpp */ /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = ../../Source/Main.cpp; sourceTree = SOURCE_ROOT; };
+		79FB5226408B1BD211965A16 /* BlendingImageComponent.cpp */ /* BlendingImageComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BlendingImageComponent.cpp; path = ../../Source/BlendingImageComponent.cpp; sourceTree = SOURCE_ROOT; };
+		86C749E07C6499A9FC26B280 /* JuceHeader.h */ /* JuceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JuceHeader.h; path = ../../JuceLibraryCode/JuceHeader.h; sourceTree = SOURCE_ROOT; };
+		872B342559E023959263E377 /* MainComponent.h */ /* MainComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainComponent.h; path = ../../Source/MainComponent.h; sourceTree = SOURCE_ROOT; };
+		8D5B12A93424EAA3B552F640 /* WarpingImageComponent.h */ /* WarpingImageComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WarpingImageComponent.h; path = ../../Source/WarpingImageComponent.h; sourceTree = SOURCE_ROOT; };
+		8F60F5DFA49D3FD449825B36 /* IOKit.framework */ /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		9869702D49F47BED1CEF948F /* PaintImageComponent.cpp */ /* PaintImageComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PaintImageComponent.cpp; path = ../../Source/PaintImageComponent.cpp; sourceTree = SOURCE_ROOT; };
+		A38F52EC39FF0695AD38D73A /* include_juce_gui_basics.mm */ /* include_juce_gui_basics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_basics.mm; path = ../../JuceLibraryCode/include_juce_gui_basics.mm; sourceTree = SOURCE_ROOT; };
+		AB74FB9CFCAD48CD558024B2 /* juce_gui_extra */ /* juce_gui_extra */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_extra; path = /Users/tuijida/Desktop/OpenGL_Course/ImageMorphing/JUCE/modules/juce_gui_extra; sourceTree = "<absolute>"; };
+		AFC2FED12A63DC697F5B475B /* SliderWithLabel.cpp */ /* SliderWithLabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SliderWithLabel.cpp; path = ../../Source/SliderWithLabel.cpp; sourceTree = SOURCE_ROOT; };
+		B6FCDF9F85A19F28A7D0423D /* include_juce_data_structures.mm */ /* include_juce_data_structures.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_data_structures.mm; path = ../../JuceLibraryCode/include_juce_data_structures.mm; sourceTree = SOURCE_ROOT; };
+		BE7A66E9AEBB1B10E5A55A2B /* PaintImageComponent.h */ /* PaintImageComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PaintImageComponent.h; path = ../../Source/PaintImageComponent.h; sourceTree = SOURCE_ROOT; };
+		BFC70C04F313F9B344BAB40A /* include_juce_graphics.mm */ /* include_juce_graphics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_graphics.mm; path = ../../JuceLibraryCode/include_juce_graphics.mm; sourceTree = SOURCE_ROOT; };
+		C14D9BA9BA65C335A1036216 /* WebKit.framework */ /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D26EFB45DD52AABA64B2CC66 /* WarpingImageComponent.cpp */ /* WarpingImageComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = WarpingImageComponent.cpp; path = ../../Source/WarpingImageComponent.cpp; sourceTree = SOURCE_ROOT; };
+		D41B62ECFE9F9F875C0145DC /* SliderWithLabel.h */ /* SliderWithLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SliderWithLabel.h; path = ../../Source/SliderWithLabel.h; sourceTree = SOURCE_ROOT; };
+		D5D229385B2D9843E1FD57DD /* BlendingImageComponent.h */ /* BlendingImageComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BlendingImageComponent.h; path = ../../Source/BlendingImageComponent.h; sourceTree = SOURCE_ROOT; };
+		E0BA455873C678D63F54DA67 /* MorphingAnimationComponent.h */ /* MorphingAnimationComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MorphingAnimationComponent.h; path = ../../Source/MorphingAnimationComponent.h; sourceTree = SOURCE_ROOT; };
+		E0D31D4D1FF4DC88A8FCC660 /* juce_core */ /* juce_core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_core; path = /Users/tuijida/Desktop/OpenGL_Course/ImageMorphing/JUCE/modules/juce_core; sourceTree = "<absolute>"; };
+		E2B75E988959545C26C8F4B1 /* QuartzCore.framework */ /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EA1011F94A488348E9F7E5D1 /* Carbon.framework */ /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		EA4C0712D447BFC50317362A /* Info-App.plist */ /* Info-App.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-App.plist"; path = "Info-App.plist"; sourceTree = SOURCE_ROOT; };
+		EF5B0C126EA0B0A171A7A1A8 /* Cocoa.framework */ /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EFB9822C864777B2B95B1088 /* MorphingAnimationComponent.cpp */ /* MorphingAnimationComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MorphingAnimationComponent.cpp; path = ../../Source/MorphingAnimationComponent.cpp; sourceTree = SOURCE_ROOT; };
+		F86FDD30D95C7A87F3C1B303 /* include_juce_core.mm */ /* include_juce_core.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_core.mm; path = ../../JuceLibraryCode/include_juce_core.mm; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6433A9B3BD79AC74E54F0D95 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1271A0F6E3E8BB8702E70EEF,
+				A087EB37313817C5C9DB49D1,
+				B3DB4DE35F720B869D831FB5,
+				8072444CB217854D0D0A4B72,
+				D01BBAF87601C3E2F8962043,
+				8DC471CCBBE590FBA5096F10,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033BA6B4B5CB08D7A400E630 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA1011F94A488348E9F7E5D1,
+				EF5B0C126EA0B0A171A7A1A8,
+				4527EA453C5932E848E792C4,
+				8F60F5DFA49D3FD449825B36,
+				E2B75E988959545C26C8F4B1,
+				C14D9BA9BA65C335A1036216,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19129141869096D7F2EC8C8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C669E046595E5C8F1B25117,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7200CA126AB009E0E361E077 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C0712D447BFC50317362A,
+				0DF62F148A5359AF54B98238,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7E914882711C271F6A948401 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D26EFB45DD52AABA64B2CC66,
+				8D5B12A93424EAA3B552F640,
+				79FB5226408B1BD211965A16,
+				D5D229385B2D9843E1FD57DD,
+				EFB9822C864777B2B95B1088,
+				E0BA455873C678D63F54DA67,
+				9869702D49F47BED1CEF948F,
+				BE7A66E9AEBB1B10E5A55A2B,
+				778D38D1B064797B2A6A7079,
+				AFC2FED12A63DC697F5B475B,
+				D41B62ECFE9F9F875C0145DC,
+				872B342559E023959263E377,
+				49C5ABE02CEBB9DA18A4A227,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		7F3A9DBACD5E8DEB6192C38D /* JUCE Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E0D31D4D1FF4DC88A8FCC660,
+				392E650ADAD1B185DDD89F22,
+				3C3F87B202862320E5E95F21,
+				175649743EA2F517EBE6F022,
+				6A5CE980E71F116CB19134C7,
+				AB74FB9CFCAD48CD558024B2,
+			);
+			name = "JUCE Modules";
+			sourceTree = "<group>";
+		};
+		88FAFD6400489874BD077722 /* JUCE Library Code */ = {
+			isa = PBXGroup;
+			children = (
+				F86FDD30D95C7A87F3C1B303,
+				B6FCDF9F85A19F28A7D0423D,
+				4327BF37CEFE30C9B65FEA5E,
+				BFC70C04F313F9B344BAB40A,
+				A38F52EC39FF0695AD38D73A,
+				35C255345BE0938DE3815668,
+				86C749E07C6499A9FC26B280,
+			);
+			name = "JUCE Library Code";
+			sourceTree = "<group>";
+		};
+		8A84EF60ADF41C4EF29F69D5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B3538AEA67EB7EB0F827A1AD,
+				7F3A9DBACD5E8DEB6192C38D,
+				88FAFD6400489874BD077722,
+				7200CA126AB009E0E361E077,
+				033BA6B4B5CB08D7A400E630,
+				19129141869096D7F2EC8C8F,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		B3538AEA67EB7EB0F827A1AD /* ImageMorphing */ = {
+			isa = PBXGroup;
+			children = (
+				7E914882711C271F6A948401,
+			);
+			name = ImageMorphing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B84BA5220BCD840B2D544A /* ImageMorphing - App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE28CEE1087B39E32072349;
+			buildPhases = (
+				6CB6EC829FEC583080707C69,
+				593D9D4868F0DC7BB1ABA34A,
+				6433A9B3BD79AC74E54F0D95,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImageMorphing - App";
+			productName = ImageMorphing;
+			productReference = 1C669E046595E5C8F1B25117;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B7924AA3F4DAF0E7360CF21 = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					A1B84BA5220BCD840B2D544A = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.HardenedRuntime = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6A6EC0229B90242FF6541312;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A84EF60ADF41C4EF29F69D5;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B84BA5220BCD840B2D544A,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CB6EC829FEC583080707C69 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A737A0AC42A18953B3459710,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		593D9D4868F0DC7BB1ABA34A = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440B9B7907F43369B4D3D6C2,
+				97C97140269ECDF55506553D,
+				760C35AF6D12AB2B5047CCC0,
+				6DB519F3FDB37AD549D2180B,
+				ABB345FC252F67E1D3DABA50,
+				AE78CB55440333BF197A0B1F,
+				7E5934DCEBB4D9DF76DCA7CE,
+				6CCADCF57142D0E685DB1D58,
+				656FA8C83355F817039AA60E,
+				B98EC03CBC7D4F42F5C9DEE3,
+				11BE4A5DE8CF2E0755EC5577,
+				2D3F3C47E3AF90384247C954,
+				8AEF9F094F3D2EBE81EF9FA0,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0EF69692C624B52F6FC31371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60102",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JUCE_STANDALONE_APPLICATION=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../JuceLibraryCode",
+					"/Users/tuijida/Desktop/OpenGL_Course/ImageMorphing/JUCE/modules",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-App.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode /Users/tuijida/Desktop/OpenGL_Course/ImageMorphing/JUCE/modules";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.ImageMorphing;
+				PRODUCT_NAME = "ImageMorphing";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+			};
+			name = Release;
+		};
+		52BF7BF12B39C537239AB4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60102",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JUCE_STANDALONE_APPLICATION=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../JuceLibraryCode",
+					"/Users/tuijida/Desktop/OpenGL_Course/ImageMorphing/JUCE/modules",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-App.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode /Users/tuijida/Desktop/OpenGL_Course/ImageMorphing/JUCE/modules";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.ImageMorphing;
+				PRODUCT_NAME = "ImageMorphing";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+			};
+			name = Debug;
+		};
+		6E66D3B76FFB4BA2DD0B87C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = "ImageMorphing";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		7ABAABD203DA4DF218620915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "ImageMorphing";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DE28CEE1087B39E32072349 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BF7BF12B39C537239AB4AE,
+				0EF69692C624B52F6FC31371,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6A6EC0229B90242FF6541312 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E66D3B76FFB4BA2DD0B87C5,
+				7ABAABD203DA4DF218620915,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B7924AA3F4DAF0E7360CF21 /* Project object */;
+}

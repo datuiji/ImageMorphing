@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+63600ea4cb2ea94cabacff2da3acbe6a ImageMorphing_artefacts/JuceLibraryCode/ImageMorphing/PkgInfo
+0393cd7a6617e3134482d4a37edd2c36 ImageMorphing_artefacts/JuceLibraryCode/JuceHeader.h
