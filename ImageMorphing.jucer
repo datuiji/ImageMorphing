@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="yufdBN" name="ImageMorphing" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="GqdERP" name="ImageMorphing">
+    <GROUP id="{3BB0A2F1-37DA-884E-546A-15FD3D95FEA1}" name="Source">
+      <FILE id="BRJQJM" name="WarpingImageComponent.cpp" compile="1" resource="0"
+            file="Source/WarpingImageComponent.cpp"/>
+      <FILE id="dEecsP" name="WarpingImageComponent.h" compile="0" resource="0"
+            file="Source/WarpingImageComponent.h"/>
+      <FILE id="WgmIdl" name="BlendingImageComponent.cpp" compile="1" resource="0"
+            file="Source/BlendingImageComponent.cpp"/>
+      <FILE id="fmEwWp" name="BlendingImageComponent.h" compile="0" resource="0"
+            file="Source/BlendingImageComponent.h"/>
+      <FILE id="AUIlfk" name="MorphingAnimationComponent.cpp" compile="1"
+            resource="0" file="Source/MorphingAnimationComponent.cpp"/>
+      <FILE id="eUEwZO" name="MorphingAnimationComponent.h" compile="0" resource="0"
+            file="Source/MorphingAnimationComponent.h"/>
+      <FILE id="TSLt3u" name="PaintImageComponent.cpp" compile="1" resource="0"
+            file="Source/PaintImageComponent.cpp"/>
+      <FILE id="XGRdhg" name="PaintImageComponent.h" compile="0" resource="0"
+            file="Source/PaintImageComponent.h"/>
+      <FILE id="q19x09" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="ch6fdH" name="SliderWithLabel.cpp" compile="1" resource="0"
+            file="Source/SliderWithLabel.cpp"/>
+      <FILE id="dbwHVU" name="SliderWithLabel.h" compile="0" resource="0"
+            file="Source/SliderWithLabel.h"/>
+      <FILE id="Vh2LFt" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="RntdQe" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="ImageMorphing"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="ImageMorphing"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
