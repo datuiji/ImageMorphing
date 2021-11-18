@@ -28,12 +28,15 @@ SliderWithLabel::~SliderWithLabel()
 
 void SliderWithLabel::paint (juce::Graphics& g)
 {
+    auto bound = getLocalBounds();
     
     g.setColour(juce::Colours::white);
-    g.drawFittedText(title, slider.getBounds(), juce::Justification::centred, 1);
+    g.drawFittedText(title, bound.removeFromLeft(40), juce::Justification::centred, 1);
 }
 
 void SliderWithLabel::resized()
 {
-    slider.setBounds(getLocalBounds());
+    auto bound = getLocalBounds();
+    bound.removeFromLeft(40);
+    slider.setBounds(bound);
 }
