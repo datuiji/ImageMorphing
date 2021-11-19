@@ -14,7 +14,7 @@
 //==============================================================================
 WarpingImageComponent::WarpingImageComponent()
 {
-    threads.resize(30);
+    threads.resize(10);
     morphingResult.resize(300);
 }
 
@@ -82,8 +82,6 @@ juce::Image WarpingImageComponent::warping(const juce::Image& source,
             
             juce::Colour finalColor = bilinearFilter(_x, source);
             result.setPixelAt(i, j, finalColor);
-            
-//            warpingImage = result;
         }
     }
     
